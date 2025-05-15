@@ -62,10 +62,6 @@ table {
   width: 100%;
 }
 
-td {
-  text-align: left; 
-}
-
 .cell-subtitle {
   vertical-align: top;
 }
