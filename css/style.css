@@ -220,10 +220,6 @@ hr {
     justify-content: center;
   }
 
-  .links {
-    grid-template-columns: 1fr;
-  }
-
   .subtitle {
     padding-left: 0;
     text-align: left;
