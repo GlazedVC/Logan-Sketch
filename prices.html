@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logan-Sketch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="izquierda" style="width: 100%;">
+      <a class="button_return" href="index.html">HOME<p>
+          < </p></a>
+    </div>
+    <br><br>
+    <h1>PRICES</h1>
+    <h3 style="font-size: 1rem;">*Extra characters + 50% Each.<br> <br> *Added Background 25 - 50 USD (Deppends on Complexity) </h3><br>
+    <hr style="margin-top: 10px;"><br>
+    <h2 style='color:#28282b;'>Flat Color</h2><br>
+    <hr><br>
+    <div class="drawings">
+      <h3 style="color: #ac224b;">Half Body 45 USD</h3>
+      <img class="draw" src="img/ColSketch1.jpg">
+      <img class="draw" src="img/ColSketch2.jpg">
+      <h3 style="padding-top: 10px; color: #ac224b;">Full Body 65 USD</h3>
+      <img class="draw" src="img/ColSketch3.jpg">
+      <img class="draw" src="img/ColSketch4.jpg">
+    </div>
+    <p>*Added Shadows or Latex Reflections + 15 USD</p> <br>
+    <hr><br>
+    <h2 style='color:#28282b;'>Cell Shaded</h2>
+    <hr style="margin-top: 10px;"><br>
+    <div class="drawings">
+      <h3 style="color: #ac224b;">Half Body 75 USD</h3>
+      <img class="draw" src="img/CellShaded1.png">
+      <img class="draw" src="img/CellShaded2.png">
+      <h3 style="padding-top: 10px; color: #ac224b;">Full Body 95 USD</h3>
+      <img class="draw" src="img/CellShaded3.jpg"> 
+    </div>
+
+    <hr><br>
+    <h2 style='color:#28282b;'>Full Render</h2>
+    <hr style="margin-top: 10px;"><br> 
+    <h3 style="color: #ac224b;">Half Body 100 USD</h3>
+      <h3 style="color: #ac224b;">Full Body 125 USD</h3>
+      <img style="width: 100%;" src="img/FullRender1.png">
+      <img style="width: 100%;" src="img/FullRender2.png"> 
+    <br>
+
+  </div>
+  <div class="overlay"></div>
+</body>
+
+</html>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    if (!localStorage.getItem('adultConfirmed')) {
+      alert("⚠️ Adult Content Waring (+18) ⚠️\n\n💜 This page contains NSFW material.\n\n💜 Please proceed only if you are of legal age.\n\n💚 Thank you for visiting me! 💚");
+      localStorage.setItem('adultConfirmed', 'true');
+    }
+  });
+</script>
